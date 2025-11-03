@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 thetitleid = "c604a"
 
-def delayed_action(tokne, plefeb):
+def delayed_action(token, playfab):
     add_body = {
         "Amount": 10000,
         "CustomTags": None,
@@ -86,6 +86,7 @@ def forward(path):
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000, debug=True)
+
 
 
 
